@@ -1,0 +1,33 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:util="http://www.springframework.org/schema/util" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+	<!-- 
+		ATENÇÃO:
+		
+		Os campos do cron se referem a:
+		1.Seconds
+		2.Minutes
+		3.Hours
+		4.Day-of-Month
+		5.Month
+		6.Day-of-Week
+		7.Year (optional field)
+	-->
+	<!-- 
+	<task:scheduler id="taskScheduler" pool-size="5"/>
+	
+	<task:scheduled-tasks scheduler="taskScheduler">
+		 <task:scheduled ref="" method="" cron="0 0 0 * * ?"/>
+	</task:scheduled-tasks>
+	
+	<bean id="" class=""></bean>
+	 -->
+</beans>

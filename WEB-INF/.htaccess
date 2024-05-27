@@ -1,0 +1,5 @@
+AuthName nti
+AuthType Basic
+AuthUserFile /web/usuarios
+AuthGroupFile /web/grupos
+require group nti
